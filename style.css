@@ -1,0 +1,43 @@
+body {
+	background: #ccebff;
+	transition: all 5s ease-in-out;
+	background-size: cover;
+}
+
+
+.dark {
+		background: #000033;
+}
+
+
+.sunrise {
+	position: absolute;
+	left: 60%;
+	top: 10%;
+	background: #ffb45d;
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	transition: all 5s ease-in-out;
+	box-shadow: 0 0 60px 30px #ffa64d, 0 0 100px 60px #ffeb99, 0 0 140px 90px #ffea94;
+
+}
+
+
+
+.buildings {
+	position: fixed;
+	left: 0;
+	top: 90px;
+}
+
+#button {
+	z-index: 20;
+	position: fixed;
+	left: 46%;
+	top: 85%;
+	font-size: 20px;
+	color: white;
+	background-color: black;
+	border: none;
+}
